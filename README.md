@@ -17,6 +17,7 @@ Start by configuring an SSH key using the following instructions:
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair
 
 Head over to the cloudformation page and click on “create a new stack” then
+Load the template file from this repo into Cloudformation. Hit next and
 fill out the fields that don’t already have default values. This stack will
 allow you to create multiple instances (Prod and QA for example) which you
 could then deploy to using Kubernetes. In this example we’re only configuring
