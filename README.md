@@ -73,6 +73,9 @@ from our domain. Requesting an SSL through AWS is the easiest way to do this
 since we are already using their services. We also need to edit our security
 group’s inbound rules to support HTTPS.
 
+In the event the load balancer with SSL doesn't do the job something like
+https://github.com/jetstack/cert-manager could be used.
+
 # Next Steps
 
 Once you've finished reading through this head over to
